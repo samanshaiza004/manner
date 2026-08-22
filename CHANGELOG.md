@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.3.0 — 2026-08-22
 
 ### Added
 
@@ -36,7 +36,11 @@
 ### Verification
 
 - Chromium, Firefox, and WebKit Playwright projects with axe and ARIA snapshots.
-- Carousel requires manual Safari + VoiceOver, Firefox + NVDA, and Chrome + NVDA verification before completion; see `TESTING.md`.
+- Manual Carousel verification passed with Safari + VoiceOver, Firefox + NVDA, and Chrome + NVDA; see `TESTING.md`.
+
+### Website
+
+- Removed repeated photography from the homepage behavior modules and kept the hero/promo images as distinct editorial anchors.
 
 ## 0.1.0 — 2026-08-11
 

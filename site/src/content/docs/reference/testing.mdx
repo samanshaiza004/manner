@@ -3,7 +3,7 @@ title: Testing evidence
 description: Automated browser coverage and the manual assistive-technology gate for MannerHTML behaviors.
 ---
 
-Automated evidence recorded on August 14, 2026 for unreleased `main` (v0.2.0 plus the Carousel implementation): **165 tests passed** across Chromium, Firefox, and WebKit with Playwright and axe-core.
+Automated evidence recorded on August 14, 2026 for `v0.3.0`: **165 tests passed** across Chromium, Firefox, and WebKit with Playwright and axe-core.
 
 ## Automated coverage
 
@@ -25,18 +25,18 @@ npm run test:browser
 
 ## Manual assistive-technology matrix
 
-Automated results do not establish assistive-technology support. Carousel is a completion gate only after a person records a pass for slide announcements and stable focus in all three required combinations.
+Automated results do not establish assistive-technology support. Carousel was a completion gate; the v0.3.0 manual matrix below records the required pass for slide announcements and stable focus in all three combinations.
 
 | Platform | Browser | Assistive technology | Status |
 | --- | --- | --- | --- |
-| macOS | Safari | VoiceOver | Unverified |
-| Windows | Firefox | NVDA | Unverified |
-| Windows | Chrome | NVDA | Unverified |
+| macOS | Safari | VoiceOver | Pass — user-verified |
+| Windows | Firefox | NVDA | Pass — user-verified |
+| Windows | Chrome | NVDA | Pass — user-verified |
 | iOS | Safari | VoiceOver | Unverified |
 | Android | Chrome | TalkBack | Unverified |
 
-For the three required Carousel combinations, record a pass only when a named slide change is announced after activating Previous or Next, focus remains on that navigation button, finite boundaries are understandable, and `data-loop` wrapping does not produce duplicate or stale announcements. Until those checks are recorded, Carousel is not a completed release feature.
+For the three required Carousel combinations, a pass requires a named slide change to be announced after activating Previous or Next, focus to remain on that navigation button, finite boundaries to be understandable, and `data-loop` wrapping not to produce duplicate or stale announcements. The v0.3.0 gate passed those checks. Mobile screen-reader behavior remains unverified.
 
 ## Release interpretation
 
-The automated suite supports a credible cross-engine implementation claim. It does not yet support a blanket “screen-reader tested” claim. Website and package copy should preserve that distinction until the manual matrix is complete.
+The automated suite and the completed desktop manual matrix support the v0.3.0 release claim. Mobile screen-reader behavior is still outside this evidence and remains unverified.

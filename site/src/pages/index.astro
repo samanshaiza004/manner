@@ -33,9 +33,9 @@ const library = `${base}dist/index.js`;
               <p class="hero-lede">MannerHTML adds the interaction HTML does not provide, without taking away your markup, your styles, or your framework.</p>
             </div>
             <aside class="hero-news" aria-label="Latest release">
-              <p class="hero-news-version">v0.2.0</p>
-              <p><strong>Out now:</strong> findable inactive panels, cleaner tab stops, and reset-safe form errors.</p>
-              <a href="https://github.com/samanshaiza004/mannerhtml/releases/tag/v0.2.0">Read the release note ›</a>
+              <p class="hero-news-version">v0.3.0</p>
+              <p><strong>Out now:</strong> a manual Carousel with polite announcements, stable focus, and a completed AT gate.</p>
+              <a href="https://github.com/samanshaiza004/mannerhtml/releases/tag/v0.3.0">Read the release note ›</a>
             </aside>
           </div>
         </section>
@@ -44,7 +44,6 @@ const library = `${base}dist/index.js`;
           <section class="tab-card">
             <h2>Start</h2>
             <p class="card-eyebrow">manner / new user</p>
-            <img class="card-shot" src={heroWoman.src} alt="" />
             <p class="card-lead"><a href={`${base}docs/`}>Add behavior in one line</a></p>
             <p>Install the module, import it once, and the elements you already authored start behaving.</p>
             <ul class="card-links">
@@ -60,7 +59,6 @@ const library = `${base}dist/index.js`;
             <h2>Build</h2>
             <p class="card-eyebrow">author / markup</p>
             <div class="card-diagram" aria-hidden="true">
-              <img src={heroWoman.src} alt="" />
               <p><span>HTML</span><b>→</b><span>MANNER</span><b>→</b><span>ARIA</span></p>
             </div>
             <p class="card-lead"><a href={`${base}components/tabs/`}>Describe meaning, not widgets</a></p>
@@ -78,7 +76,6 @@ const library = `${base}dist/index.js`;
           <section class="tab-card">
             <h2>Understand</h2>
             <p class="card-eyebrow">access / evidence</p>
-            <img class="card-shot card-shot--alt" src={promoMan.src} alt="" />
             <p class="card-lead"><a href={`${base}guides/accessibility/`}>Accessible by construction</a></p>
             <p>Real focus moves, exposed roles, and a no-JavaScript fallback that still navigates.</p>
             <ul class="card-links">
@@ -87,7 +84,7 @@ const library = `${base}dist/index.js`;
               <li><a href={`${base}guides/native-html-first/`}>When to skip the layer</a></li>
               <li><a href="https://github.com/samanshaiza004/mannerhtml/issues">Report a behavior bug</a></li>
             </ul>
-            <p class="card-foot">117 tests | 3 engines</p>
+            <p class="card-foot">165 tests | 3 engines</p>
           </section>
         </div>
 
@@ -104,10 +101,10 @@ const library = `${base}dist/index.js`;
           <div class="download-links">
             <ul class="card-links">
               <li><a href="https://www.npmjs.com/package/mannerhtml">Package on npm</a></li>
-              <li><a href="https://github.com/samanshaiza004/mannerhtml/archive/refs/tags/v0.2.0.tar.gz">Source archive</a></li>
+              <li><a href="https://github.com/samanshaiza004/mannerhtml/archive/refs/tags/v0.3.0.tar.gz">Source archive</a></li>
             </ul>
             <ul class="card-links">
-              <li><a href="https://github.com/samanshaiza004/mannerhtml/releases/tag/v0.2.0">Release notes</a></li>
+              <li><a href="https://github.com/samanshaiza004/mannerhtml/releases/tag/v0.3.0">Release notes</a></li>
               <li><a href="https://github.com/samanshaiza004/mannerhtml/blob/main/LICENSE">MIT license</a></li>
             </ul>
           </div>
@@ -152,15 +149,15 @@ const library = `${base}dist/index.js`;
             <ol>
               <li>
                 <span class="wire-badge wire-badge--now">NOW</span>
-                <p>v0.2.0 hardens the details: findable inactive panels, cleaner tab stops, and observable invalid forms. <a href="https://github.com/samanshaiza004/mannerhtml/releases/tag/v0.2.0">Release note ›</a></p>
+                <p>v0.3.0 adds the manual Carousel and closes its screen-reader verification gate. <a href="https://github.com/samanshaiza004/mannerhtml/releases/tag/v0.3.0">Release note ›</a></p>
               </li>
               <li>
                 <span class="wire-badge wire-badge--built">BUILT</span>
-                <p>Tabs and form validation, both exercised in Chromium, Firefox, and WebKit. <a href={`${base}components/tabs/`}>Behaviors ›</a></p>
+                <p>Tabs, forms, and Carousel are exercised in Chromium, Firefox, and WebKit. <a href={`${base}components/carousel/`}>Behaviors ›</a></p>
               </li>
               <li>
                 <span class="wire-badge wire-badge--open">OPEN</span>
-                <p>The manual screen-reader matrix is still in progress and is reported honestly. <a href={`${base}reference/testing/`}>Evidence ›</a></p>
+                <p>Safari + VoiceOver, Firefox + NVDA, and Chrome + NVDA all passed the Carousel gate. <a href={`${base}reference/testing/`}>Evidence ›</a></p>
               </li>
             </ol>
             <p class="card-foot">pre-1.0 / semantic versioning starts at the first stable release</p>
@@ -168,10 +165,10 @@ const library = `${base}dist/index.js`;
         </div>
 
         <ul class="spec-strip">
-          <li><b>Version:</b> 0.2.0</li>
+          <li><b>Version:</b> 0.3.0</li>
           <li><b>Module:</b> ESM</li>
           <li><b>Types:</b> included</li>
-          <li><b>Tests:</b> 117</li>
+          <li><b>Tests:</b> 165</li>
           <li><b>Engines:</b> 3</li>
           <li><b>License:</b> MIT</li>
         </ul>

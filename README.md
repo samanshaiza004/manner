@@ -86,4 +86,4 @@ MannerHTML is not a component library, design system, CSS framework, rendering f
 
 ## Status
 
-MannerHTML v0.2 includes tabs, form validation, and the manual Carousel primitive. Disabled tabs, automatic mutation reconciliation, URL history synchronization, async panels, autoplay, swipe, and additional widgets are intentionally out of scope. Browser and assistive-technology evidence is recorded in [TESTING.md](TESTING.md).
+MannerHTML v0.3 includes tabs, form validation, and the manual Carousel primitive. Disabled tabs, automatic mutation reconciliation, URL history synchronization, async panels, autoplay, swipe, and additional widgets are intentionally out of scope. Browser and assistive-technology evidence is recorded in [TESTING.md](TESTING.md).
