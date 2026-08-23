@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const projectDirectory = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const root = path.join(projectDirectory, "website-dist");
-const base = "/mannerhtml";
+const base = "/";
 const contentTypes = {
   ".css": "text/css; charset=utf-8",
   ".html": "text/html; charset=utf-8",
@@ -31,5 +31,5 @@ createServer(async (request, response) => {
     response.end("Not found");
   }
 }).listen(4321, "127.0.0.1", () => {
-  console.log("MannerHTML site available at http://127.0.0.1:4321/mannerhtml/");
+  console.log("MannerHTML site available at http://127.0.0.1:4321/");
 });

@@ -1,10 +1,10 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 
-const base = "/mannerhtml";
+const base = "/";
 
 export default defineConfig({
-  site: "https://samanshaiza004.github.io",
+  site: "https://mannerhtml.samanshaiza.com",
   base,
   outDir: "../website-dist",
   trailingSlash: "always",

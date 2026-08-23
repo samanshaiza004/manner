@@ -23,7 +23,7 @@ To try an unreleased branch directly from GitHub, use `npm install github:samans
 ## Tabs
 
 ```html
-<script type="module" src="/mannerhtml/dist/index.js"></script>
+<script type="module" src="/dist/index.js"></script>
 
 <manner-tabs>
   <nav data-tablist aria-label="Sections">

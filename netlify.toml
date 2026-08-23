@@ -1,0 +1,9 @@
+[build]
+  command = "npm run site:build"
+  publish = "website-dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[context.deploy-preview]
+  command = "npm run site:build"
